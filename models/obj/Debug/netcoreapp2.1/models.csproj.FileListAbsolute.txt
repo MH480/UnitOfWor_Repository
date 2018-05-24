@@ -1,0 +1,9 @@
+C:\C#_Projects\vscodes\UOW_RIP\models\bin\Debug\netcoreapp2.1\models.deps.json
+C:\C#_Projects\vscodes\UOW_RIP\models\bin\Debug\netcoreapp2.1\models.dll
+C:\C#_Projects\vscodes\UOW_RIP\models\bin\Debug\netcoreapp2.1\models.pdb
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.csprojAssemblyReference.cache
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.csproj.CoreCompileInputs.cache
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.AssemblyInfoInputs.cache
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.AssemblyInfo.cs
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.dll
+C:\C#_Projects\vscodes\UOW_RIP\models\obj\Debug\netcoreapp2.1\models.pdb
