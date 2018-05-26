@@ -1,0 +1,14 @@
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\ExtentionBuilders.deps.json
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\ExtentionBuilders.dll
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\ExtentionBuilders.pdb
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\models.dll
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\orm.dll
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\models.pdb
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\bin\Debug\netcoreapp2.1\orm.pdb
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.csprojAssemblyReference.cache
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.csproj.CoreCompileInputs.cache
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.AssemblyInfoInputs.cache
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.AssemblyInfo.cs
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.csproj.CopyComplete
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.dll
+C:\C#_Projects\vscodes\UOW_RIP\ExtentionBuilders\obj\Debug\netcoreapp2.1\ExtentionBuilders.pdb

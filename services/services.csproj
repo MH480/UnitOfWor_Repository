@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\models\models.csproj" />
     <ProjectReference Include="..\orm\orm.csproj" />
+    <ProjectReference Include="..\ExtentionBuilders\ExtentionBuilders.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -32,6 +33,12 @@ namespace WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddEntityFrameworkSqlServer()
+            .AddDbContext<AppDbContext>(db=>
+            {
+                db.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=EFGetStarted.AspNetCore.NewDb;Trusted_Connection=True;ConnectRetryCount=0");
+            });
             services.AddIdentity<AppUser,IdentityRole>()
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders();
@@ -75,10 +82,9 @@ namespace WebApi
 
             app.UseAuthentication();
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
             app.UseMvc((routs)=>{
-                routs.MapRoute("Default","api/{Controller}/{actions}/{id?}");
-                routs.MapRoute("Default2","api/{Controller}/{actions}");
-                routs.MapRoute("Default3","api/{Controller}/Index");
+                routs.MapRoute("Default","api/{Controller}/{action}/{id?}");
             });
         }
     }

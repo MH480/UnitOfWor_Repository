@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using ExtentionBuilders.Builders;
 using Microsoft.AspNetCore.Identity;
 using models.ViewModels;
 using orm.Infrastructures;
@@ -34,7 +35,7 @@ namespace services
 
         public async Task<string> SignUp(AppUserVM userVM)
         {
-            var res = await _userManager.CreateAsync(new AppUser());
+            var res = await _userManager.CreateAsync(userVM.ToViewModelConv<AppUser>());
             if (res.Succeeded)
             {
                 string errors = string.Empty;

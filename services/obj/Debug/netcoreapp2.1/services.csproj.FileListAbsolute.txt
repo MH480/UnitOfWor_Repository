@@ -12,3 +12,5 @@ C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\orm.dll
 C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\models.pdb
 C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\orm.pdb
 C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.csproj.CopyComplete
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\ExtentionBuilders.dll
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\ExtentionBuilders.pdb

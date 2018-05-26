@@ -7,3 +7,5 @@ C:\C#_Projects\vscodes\UOW_RIP\orm\obj\Debug\netcoreapp2.1\orm.AssemblyInfoInput
 C:\C#_Projects\vscodes\UOW_RIP\orm\obj\Debug\netcoreapp2.1\orm.AssemblyInfo.cs
 C:\C#_Projects\vscodes\UOW_RIP\orm\obj\Debug\netcoreapp2.1\orm.dll
 C:\C#_Projects\vscodes\UOW_RIP\orm\obj\Debug\netcoreapp2.1\orm.pdb
+C:\C#_Projects\vscodes\UOW_RIP\orm\bin\Debug\netcoreapp2.1\orm.runtimeconfig.json
+C:\C#_Projects\vscodes\UOW_RIP\orm\bin\Debug\netcoreapp2.1\orm.runtimeconfig.dev.json

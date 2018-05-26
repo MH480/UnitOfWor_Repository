@@ -1,5 +1,7 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using models.ViewModels;
 using services.ServicesInterfaces;
 
 namespace WebApi.Controllers
@@ -28,5 +30,14 @@ namespace WebApi.Controllers
             var res = await _auth.LogIn(phone,password);
             return new ContentResult{Content = res };
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Signin(string phone,string password)
+        {
+            var res = await _auth.SignUp(null);
+            return new ContentResult{Content = res };
+        }
+        
+        
     }
 }

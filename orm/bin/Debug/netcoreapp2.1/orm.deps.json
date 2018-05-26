@@ -1,14 +1,17 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7a6de87acd0c915ec378506ac3eb693d51eeb061"
+    "signature": "7fdc764360cd1d7d81921180b5921da64c7c0bd9"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "orm/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.0-rc1-final"
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.1.0-rc1-final",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0-rc1-final",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0-rc1-final",
+          "Microsoft.EntityFrameworkCore.Tools": "2.1.0-rc1-final"
         },
         "runtime": {
           "orm.dll": {}
@@ -25,7 +28,10 @@
           "Microsoft.Extensions.WebEncoders": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.1.0-rc1-final": {
@@ -35,7 +41,10 @@
           "Microsoft.Extensions.Options": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Cookies/2.1.0-rc1-final": {
@@ -43,7 +52,10 @@
           "Microsoft.AspNetCore.Authentication": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Core/2.1.0-rc1-final": {
@@ -53,12 +65,18 @@
           "Microsoft.AspNetCore.Http.Extensions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Core.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.1.0-rc1-final": {
@@ -66,7 +84,10 @@
           "Microsoft.AspNetCore.Cryptography.Internal": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
+          "lib/netcoreapp2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.DataProtection/2.1.0-rc1-final": {
@@ -82,12 +103,18 @@
           "System.Security.Principal.Windows": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.DataProtection.Abstractions/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Hosting.Abstractions/2.1.0-rc1-final": {
@@ -97,7 +124,10 @@
           "Microsoft.Extensions.Hosting.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Hosting.Server.Abstractions/2.1.0-rc1-final": {
@@ -106,7 +136,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Http/2.1.0-rc1-final": {
@@ -118,7 +151,10 @@
           "Microsoft.Net.Http.Headers": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Http.Abstractions/2.1.0-rc1-final": {
@@ -127,7 +163,10 @@
           "System.Text.Encodings.Web": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Http.Extensions/2.1.0-rc1-final": {
@@ -138,7 +177,10 @@
           "System.Buffers": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Extensions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Http.Features/2.1.0-rc1-final": {
@@ -146,7 +188,10 @@
           "Microsoft.Extensions.Primitives": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Identity/2.1.0-rc1-final": {
@@ -157,7 +202,10 @@
           "Microsoft.Extensions.Identity.Core": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/2.1.0-rc1-final": {
@@ -167,7 +215,10 @@
           "Microsoft.Extensions.Identity.Stores": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.AspNetCore.WebUtilities/2.1.0-rc1-final": {
@@ -176,9 +227,13 @@
           "System.Text.Encodings.Web": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {}
+          "lib/netstandard2.0/Microsoft.AspNetCore.WebUtilities.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
+      "Microsoft.CSharp/4.5.0-rc1": {},
       "Microsoft.EntityFrameworkCore/2.1.0-rc1-final": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "2.1.0-rc1-final",
@@ -193,21 +248,59 @@
           "System.Interactive.Async": "3.1.1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore.Abstractions/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/2.1.0-rc1-final": {},
+      "Microsoft.EntityFrameworkCore.Design/2.1.0-rc1-final": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0-rc1",
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.0-rc1-final"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/2.1.0-rc1-final": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/2.1.0-rc1-final": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "2.1.0-rc1-final",
+          "System.Data.SqlClient": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/2.1.0-rc1-final": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0-rc1-final"
         }
       },
       "Microsoft.Extensions.Caching.Abstractions/2.1.0-rc1-final": {
@@ -215,7 +308,10 @@
           "Microsoft.Extensions.Primitives": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Caching.Memory/2.1.0-rc1-final": {
@@ -225,7 +321,10 @@
           "Microsoft.Extensions.Options": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Configuration/2.1.0-rc1-final": {
@@ -233,7 +332,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Abstractions/2.1.0-rc1-final": {
@@ -241,7 +343,10 @@
           "Microsoft.Extensions.Primitives": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Configuration.Binder/2.1.0-rc1-final": {
@@ -249,7 +354,10 @@
           "Microsoft.Extensions.Configuration": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection/2.1.0-rc1-final": {
@@ -257,12 +365,18 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.FileProviders.Abstractions/2.1.0-rc1-final": {
@@ -270,7 +384,10 @@
           "Microsoft.Extensions.Primitives": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Hosting.Abstractions/2.1.0-rc1-final": {
@@ -281,7 +398,10 @@
           "Microsoft.Extensions.Logging.Abstractions": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Identity.Core/2.1.0-rc1-final": {
@@ -292,7 +412,10 @@
           "System.ComponentModel.Annotations": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Identity.Stores/2.1.0-rc1-final": {
@@ -302,7 +425,10 @@
           "System.ComponentModel.Annotations": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Logging/2.1.0-rc1-final": {
@@ -313,17 +439,26 @@
           "Microsoft.Extensions.Options": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Logging.Abstractions/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.ObjectPool/2.1.0-rc1-final": {
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Options/2.1.0-rc1-final": {
@@ -332,7 +467,10 @@
           "Microsoft.Extensions.Primitives": "2.1.0-rc1-final"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.Primitives/2.1.0-rc1-final": {
@@ -341,7 +479,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Extensions.WebEncoders/2.1.0-rc1-final": {
@@ -351,7 +492,10 @@
           "System.Text.Encodings.Web": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {}
+          "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Net.Http.Headers/2.1.0-rc1-final": {
@@ -360,7 +504,10 @@
           "System.Buffers": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {}
+          "lib/netstandard2.0/Microsoft.Net.Http.Headers.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.18116"
+          }
         }
       },
       "Microsoft.Win32.Registry/4.5.0-rc1": {
@@ -368,15 +515,12 @@
           "System.Security.AccessControl": "4.5.0-rc1",
           "System.Security.Principal.Windows": "4.5.0-rc1"
         },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.Win32.Registry.dll": {}
-        },
         "runtimeTargets": {
-          "runtimes/unix/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+          "runtime/unix/lib/_._": {
             "rid": "unix",
             "assetType": "runtime"
           },
-          "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.dll": {
+          "runtime/win/lib/_._": {
             "rid": "win",
             "assetType": "runtime"
           }
@@ -397,7 +541,44 @@
           "System.Threading": "4.0.11"
         },
         "runtime": {
-          "lib/netstandard1.0/Remotion.Linq.dll": {}
+          "lib/netstandard1.0/Remotion.Linq.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.30000"
+          }
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
         }
       },
       "System.Buffers/4.5.0-rc1": {},
@@ -406,22 +587,42 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "System.Collections.Immutable/1.5.0-rc1": {
+      "System.Collections.Immutable/1.5.0-rc1": {},
+      "System.ComponentModel.Annotations/4.5.0-rc1": {},
+      "System.Data.SqlClient/4.5.0-rc1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0-rc1",
+          "System.Security.Principal.Windows": "4.5.0-rc1",
+          "System.Text.Encoding.CodePages": "4.5.0-rc1",
+          "runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.6.26426.4"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.4.0.0",
+            "fileVersion": "4.6.26426.4"
+          }
         }
       },
-      "System.ComponentModel.Annotations/4.5.0-rc1": {},
       "System.Diagnostics.Debug/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
         }
       },
-      "System.Diagnostics.DiagnosticSource/4.5.0-rc1": {
-        "runtime": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
+      "System.Diagnostics.DiagnosticSource/4.5.0-rc1": {},
       "System.Globalization/4.0.11": {
         "dependencies": {
           "System.Runtime": "4.1.0"
@@ -429,7 +630,10 @@
       },
       "System.Interactive.Async/3.1.1": {
         "runtime": {
-          "lib/netstandard1.3/System.Interactive.Async.dll": {}
+          "lib/netstandard1.3/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.0.3000.0",
+            "fileVersion": "3.1.1.0"
+          }
         }
       },
       "System.IO/4.1.0": {
@@ -549,7 +753,10 @@
       "System.Runtime/4.1.0": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.0-rc1": {
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "System.Runtime.Extensions/4.1.0": {
@@ -561,22 +768,16 @@
         "dependencies": {
           "System.Security.Principal.Windows": "4.5.0-rc1"
         },
-        "runtime": {
-          "lib/netstandard2.0/System.Security.AccessControl.dll": {}
-        },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.0/System.Security.AccessControl.dll": {
+          "runtime/win/lib/_._": {
             "rid": "win",
             "assetType": "runtime"
           }
         }
       },
       "System.Security.Cryptography.Cng/4.5.0-rc1": {
-        "runtime": {
-          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
-        },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
+          "runtime/win/lib/_._": {
             "rid": "win",
             "assetType": "runtime"
           }
@@ -587,12 +788,17 @@
           "System.Security.Cryptography.Cng": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {}
+          "lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26426.4"
+          }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Pkcs.dll": {
             "rid": "win",
-            "assetType": "runtime"
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26426.4"
           }
         }
       },
@@ -602,7 +808,10 @@
           "System.Security.Permissions": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {}
+          "lib/netstandard2.0/System.Security.Cryptography.Xml.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
         }
       },
       "System.Security.Permissions/4.5.0-rc1": {
@@ -610,19 +819,19 @@
           "System.Security.AccessControl": "4.5.0-rc1"
         },
         "runtime": {
-          "lib/netstandard2.0/System.Security.Permissions.dll": {}
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
         }
       },
       "System.Security.Principal.Windows/4.5.0-rc1": {
-        "runtime": {
-          "lib/netstandard2.0/System.Security.Principal.Windows.dll": {}
-        },
         "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+          "runtime/unix/lib/_._": {
             "rid": "unix",
             "assetType": "runtime"
           },
-          "runtimes/win/lib/netcoreapp2.0/System.Security.Principal.Windows.dll": {
+          "runtime/win/lib/_._": {
             "rid": "win",
             "assetType": "runtime"
           }
@@ -633,9 +842,31 @@
           "System.Runtime": "4.1.0"
         }
       },
+      "System.Text.Encoding.CodePages/4.5.0-rc1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0-rc1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26426.4"
+          }
+        }
+      },
       "System.Text.Encodings.Web/4.5.0-rc1": {
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {}
+          "lib/netstandard2.0/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26426.4"
+          }
         }
       },
       "System.Threading/4.0.11": {
@@ -776,6 +1007,13 @@
       "path": "microsoft.aspnetcore.webutilities/2.1.0-rc1-final",
       "hashPath": "microsoft.aspnetcore.webutilities.2.1.0-rc1-final.nupkg.sha512"
     },
+    "Microsoft.CSharp/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZHQLb01QJvLRyqjt5ega6QIpz1BvCoTSa/dL9Ne/JfJzgyj5+zDMQHUTb9BfJege3yavV2FFdKIH2PQRqGCoHQ==",
+      "path": "microsoft.csharp/4.5.0-rc1",
+      "hashPath": "microsoft.csharp.4.5.0-rc1.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/2.1.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -797,12 +1035,33 @@
       "path": "microsoft.entityframeworkcore.analyzers/2.1.0-rc1-final",
       "hashPath": "microsoft.entityframeworkcore.analyzers.2.1.0-rc1-final.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore.Design/2.1.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MynDVj9zedXD2vKNfZjzMqVyiN9nIz8R/zIe/9llaLxQ20P9W3kAsUczNjW7I/yxWjI3Gs5rIYAfwp4MsIhung==",
+      "path": "microsoft.entityframeworkcore.design/2.1.0-rc1-final",
+      "hashPath": "microsoft.entityframeworkcore.design.2.1.0-rc1-final.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore.Relational/2.1.0-rc1-final": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-XOP+P5FMVV1Rj86h7ezUT+eysExLzHTtQIth7pO93Z9A11kKQdiMCsDsRsCqkSz8FRovQthVMKB5xj6pgIAT6A==",
       "path": "microsoft.entityframeworkcore.relational/2.1.0-rc1-final",
       "hashPath": "microsoft.entityframeworkcore.relational.2.1.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/2.1.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-04V0VrEO7wUWS9Y5xqAKPs7kUI1OKMPRIhvEF9B5W7ZhFlk3H7vqiVDa7bUWkuZq12umicD++aDNCqEytwagDA==",
+      "path": "microsoft.entityframeworkcore.sqlserver/2.1.0-rc1-final",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.2.1.0-rc1-final.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/2.1.0-rc1-final": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iDbBVZpsM/mzA8c6O09D2qCWnqpN0SvpSLneyzM+DWMKdXEq8vtyVuXhJUlznDScWoKcDkQ7wTDxgyUolvRUrQ==",
+      "path": "microsoft.entityframeworkcore.tools/2.1.0-rc1-final",
+      "hashPath": "microsoft.entityframeworkcore.tools.2.1.0-rc1-final.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/2.1.0-rc1-final": {
       "type": "package",
@@ -944,6 +1203,34 @@
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
     },
+    "runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A8v6PGmk+UGbfWo5Ixup0lPM4swuSwOiayJExZwKIOjTlFFQIsu3QnDXECosBEyrWSPryxBVrdqtJyhK3BaupQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
     "System.Buffers/4.5.0-rc1": {
       "type": "package",
       "serviceable": true,
@@ -971,6 +1258,13 @@
       "sha512": "sha512-M4lOyWw6klXzKWBkFIYALHIBnAhstnRZOFuEuRQBIgjVnEVv3dAFZrT452CZS+EUIOR8RmN2Jcx51C/C9iEncw==",
       "path": "system.componentmodel.annotations/4.5.0-rc1",
       "hashPath": "system.componentmodel.annotations.4.5.0-rc1.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvZtR9A1qK9p0Z1XdPpWcU9L7+w8h4SO54DIoZTtWPfxEkYquW2n7LOXJieQc41UtxXIlF/9/+IrETJ/UyDtVg==",
+      "path": "system.data.sqlclient/4.5.0-rc1",
+      "hashPath": "system.data.sqlclient.4.5.0-rc1.nupkg.sha512"
     },
     "System.Diagnostics.Debug/4.0.11": {
       "type": "package",
@@ -1167,6 +1461,13 @@
       "sha512": "sha512-U3gGeMlDZXxCEiY4DwVLSacg+DFWCvoiX+JThA/rvw37Sqrku7sEFeVBBBMBnfB6FeZHsyDx85HlKL19x0HtZA==",
       "path": "system.text.encoding/4.0.11",
       "hashPath": "system.text.encoding.4.0.11.nupkg.sha512"
+    },
+    "System.Text.Encoding.CodePages/4.5.0-rc1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odoLDvACxh/FlanlhcKuXhBsDqS/rWUxu4g7AK73N7FAfcF94o3UGv4tkuavvKE3YUhe8GyU+pwjrVzOaVm3Gw==",
+      "path": "system.text.encoding.codepages/4.5.0-rc1",
+      "hashPath": "system.text.encoding.codepages.4.5.0-rc1.nupkg.sha512"
     },
     "System.Text.Encodings.Web/4.5.0-rc1": {
       "type": "package",
