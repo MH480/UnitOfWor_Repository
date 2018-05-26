@@ -93,10 +93,8 @@ C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Micros
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.AspNetCore.WebSockets.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.AspNetCore.WebUtilities.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CodeAnalysis.CSharp.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CodeAnalysis.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CodeAnalysis.Razor.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CodeAnalysis.Workspaces.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.CSharp.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.DotNet.PlatformAbstractions.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -176,11 +174,6 @@ C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.ComponentModel.EventBasedAsync.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.ComponentModel.Primitives.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.ComponentModel.TypeConverter.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Composition.AttributedModel.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Composition.Convention.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Composition.Hosting.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Composition.Runtime.dll
-C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Composition.TypedParts.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Configuration.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Console.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Core.dll
@@ -367,3 +360,5 @@ C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\SQLite
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\SQLitePCLRaw.provider.e_sqlite3.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\StackExchange.Redis.StrongName.dll
 C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\System.Spatial.dll
+C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\MessagePack.dll
+C:\C#_Projects\vscodes\UOW_RIP\webapi\WebApi\bin\Debug\netcoreapp2.1\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll

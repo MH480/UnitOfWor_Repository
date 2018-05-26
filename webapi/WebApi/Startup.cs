@@ -15,6 +15,8 @@ using Microsoft.Extensions.Options;
 using orm.Infrastructures;
 using orm.OrmModels;
 using orm.UnitOfWorks;
+using services;
+using services.ServicesInterfaces;
 
 namespace WebApi
 {
@@ -56,7 +58,7 @@ namespace WebApi
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddTransient<IUnitOfWork,UnitOfWork>();
-            
+            services.AddTransient<IAuthService,AuthService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

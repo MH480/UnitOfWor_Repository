@@ -1,12 +1,13 @@
+using System.Threading.Tasks;
 using models.ViewModels;
 
 namespace services.ServicesInterfaces
 {
     public interface IAuthService
     {
-        string LogIn(string phone,string password);
-        string SignUp(AppUserVM userVM);
+        Task<string> LogIn(string phone,string password);
+        Task<string> SignUp(AppUserVM userVM);
 
-        string LogOut();
+        Task<string> LogOut();
     }
 }

@@ -7,3 +7,8 @@ C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.Assembl
 C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.AssemblyInfo.cs
 C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.dll
 C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.pdb
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\models.dll
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\orm.dll
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\models.pdb
+C:\C#_Projects\vscodes\UOW_RIP\services\bin\Debug\netcoreapp2.1\orm.pdb
+C:\C#_Projects\vscodes\UOW_RIP\services\obj\Debug\netcoreapp2.1\services.csproj.CopyComplete
